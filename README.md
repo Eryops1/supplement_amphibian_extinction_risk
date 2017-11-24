@@ -3,4 +3,4 @@ Supplementary material for the paper "Evaluating the predicted extinction risk o
 
 **This repository will be filled with the datafiles on paper acceptance.**
 
-Includes datafiles, bib-file and Rmd-files to recreate the analysis and supplement file, and the supplement file itself (in case compilation fails).
+Includes datafiles, bib-file and Rmd-files to recreate the analysis and supplement file, and the supplement file itself as pdf (in case compilation fails).
