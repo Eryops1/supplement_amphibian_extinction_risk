@@ -8,6 +8,7 @@ Includes datafiles, bib-file and Rmd-files to recreate the analysis and suppleme
 ## File descriptions
 | File name                 | Description                        |
 |---------------------------|------------------------------------|
+| abbreviations.json        | Json file containing journal abbreviations to complement the csl file|
 | bodysize.csv              | Body size data for extinct species |
 | bodysize_caudata.csv      | Body size data for living caudate species collected from AmphibiaWeb|
 | comb2.csv                 | Occurrence level data on species names and taxonomy, collection and occurrence numbers, lithology information, geological stage, stratigraphic range, (paleo-)coordinates and abundance counts |
@@ -16,7 +17,7 @@ Includes datafiles, bib-file and Rmd-files to recreate the analysis and suppleme
 | ELEtietjeSA1.pdf          | Supplementary Information (figures, tables, modelling output, method part on data imputation |
 | ELEtietjeSA1.Rmd          | R Markdown file to create the supplementary information pdf-file |
 | European_Amphibians_Database3.csv | Body size data for living amphibian species. Supplement file from Trochet et al. 2014 [https://doi.org/10.3897/BDJ.2.e4123] |
-| flowchart_model_building_and_cross_correlation.jpg | Flowchart on model building and cross correlation procedure |
+| flowchart_model_building_and_cross_validation.jpg | Flowchart on model building and cross correlation procedure |
 | Hirschfeld_Roedel_bodysize_data.csv | Body size data for living amphibian species. Supplement file from Hirschfeld & Roedel 2017: https://doi.org/10.1186/s12898-017-0135-y |
 | imputed_data_extinct.RData | Imputation data from mice- and rF-algorithm approaches|
 | iucn_abundance_scraping.RData | A presence abscence matrix for abundance keywords from text mining the population descriptions on the IUCN Red List webpage |
@@ -25,8 +26,9 @@ Includes datafiles, bib-file and Rmd-files to recreate the analysis and suppleme
 | model_data.csv            | Extinct species trait dataset that is used for model building and cross-validation |
 | MS2.bib                   | bibliography file containing all references used in the manuscript and supplementary files |
 | null-boot.RData           | Results from bootstrap on the Null model. As long as this file is present in the working directory the bootstrap is not performed again in Tietje_Roedel_2017_model_building_and_prediction.R as it lasts for about 20 minutes |
-| Ruland-Jeschke_bodysize_data.csv |  Body size data for living amphibian species. 
-Supplement file from Ruland & Jeschke 2016: https://doi.org/10.1016/j.biocon.2016.11.027 |
+| occurrence_map.png        | Map of all fossil occurrences |
+| Ruland-Jeschke_bodysize_data.csv |  Body size data for living amphibian species. Supplement file from Ruland & Jeschke 2016: https://doi.org/10.1016/j.biocon.2016.11.027 |
+| stratplot.jpg             | Plots of stratigraphic range distributions |
 | taxonomy.csv              | Dataframe with taxonomic information for extinct species |
 | Tietje_Roedel_2017_data_processing.R | R script for data processing of extinct and living species traits |
 | Tietje_Roedel_2017_model_building_and_prediction.R | R script for data imputation, model building, cross validation and prediction |
