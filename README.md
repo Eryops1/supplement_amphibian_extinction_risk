@@ -34,4 +34,4 @@ Includes datafiles, bib-file and Rmd-files to recreate the analysis and suppleme
 | Tietje_Roedel_2017_model_building_and_prediction.R | R script for data imputation, model building, cross validation and prediction |
 | Tietje_Roedel_2017_model_building_and_prediction_workspace.RData | R workspace created from the similarly named R script. This workspace is required to run ELEtietjeSA1.Rmd |
 | Tietje_Roedel_2017_pbdb_references.csv | References from entries in the pbdb that were used in the final dataset |
-| Tietje_Roedel_2017_trait_refs.csv | All references for data collected literature or other databases |
+| Tietje_Roedel_2017_trait_refs.pdf | All references for data collected literature or other databases |
